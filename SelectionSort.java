@@ -33,7 +33,7 @@ public class SelectionSort{
 
         System.out.println("Sorted array:");                                              
         for(int element=0; element<sizeOfArray; element++){
-            System.out.print(myarray[element]+ " ");
+            System.out.print(myArray[element]+ " ");
         }
 
 

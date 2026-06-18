@@ -20,14 +20,14 @@ public class SelectionSort{
 
 
         for(int i=0; i<sizeOfArray-1; i++){                                       
-            int SmallestIndex= i;
+            int smallestIndex= i;
             for(int j=i+1; j<sizeOfArray; j++){
-                if(myArray[j]<myArray[SmallestIndex]){
-                    SmallestIndex= j;
+                if(myArray[j]<myArray[smallestIndex]){
+                    smallestIndex= j;
                 }
             }
-            int temp= myArray[SmallestIndex];
-            myArray[SmallestIndex]= myArray[i];
+            int temp= myArray[smallestIndex];
+            myArray[smallestIndex]= myArray[i];
             myArray[i]= temp;
         }
 

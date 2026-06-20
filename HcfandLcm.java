@@ -19,7 +19,7 @@ public class HcfandLcm {
 
         for (int i = 1; i <= a && i <= b; i++) {                   //factors of the 2 numbers
             if (a % i == 0 && b % i == 0) {
-                hcf = i;
+                hcf = i;                                           //hcf keeps updating
             }
         }
 
